@@ -1,5 +1,5 @@
-var k=1
-var n=10 //input val- no of rows you want print
+k=1
+n=10 //input val -no of rows
 for (let i=1;i<=n;i++){
     let rw=""
     for (let j=1;j<=i;j++){
@@ -7,7 +7,7 @@ for (let i=1;i<=n;i++){
             rw=k+" "+rw
         }
         else{
-            rw=rw?(rw+" "+k):rw+k
+            rw=rw?rw+" "+k:rw+k
         }
         k++
     }
