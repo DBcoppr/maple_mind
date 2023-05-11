@@ -1,5 +1,5 @@
-k=1
-n=10 //input val -no of rows
+var k=1
+var n=10 //input val -no of rows
 for (let i=1;i<=n;i++){
     let rw=""
     for (let j=1;j<=i;j++){
